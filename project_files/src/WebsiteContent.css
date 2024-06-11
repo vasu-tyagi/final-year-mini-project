@@ -1,0 +1,52 @@
+.website-content {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  padding-bottom: 50;
+}
+
+.website-content h2 {
+  color: #333;
+}
+
+.not-found-message{
+  color: #ff0000;
+  text-align: center;
+}
+
+.error {
+  font-size: 5em;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  opacity: 0;
+  animation: appearDisappear 0.8s infinite;
+}
+
+.error:before,
+.error:after {
+  content: '';
+  position: absolute;
+  height: 2em;
+  width: 0.3em;
+  background-color: #b50303; /* Dark red line color */
+}
+
+.error:before {
+  transform: rotate(45deg);
+}
+
+.error:after {
+  transform: rotate(-45deg);
+}
+
+@keyframes appearDisappear {
+  0%, 100% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+}
+

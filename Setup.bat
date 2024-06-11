@@ -2,7 +2,7 @@
 echo Starting setup...
 
 rem Change directory to files
-cd files
+cd project_files
 
 rem Download and install OllamaSetup
 echo Installing OllamaSetup...

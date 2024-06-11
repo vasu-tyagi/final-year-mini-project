@@ -1,0 +1,20 @@
+{
+  "header": {
+    "title": "DY Patil University",
+    "subtitle": "Empowering Minds, Transforming Lives",
+    "navLinks": [
+      {"text": "Home", "url": "#"},
+      {"text": "About Us", "url": "#"},
+      {"text": "Courses", "url": "#"}
+    ]
+  },
+  "mainContent": {
+    "highlightItems": [
+      {"title": "Explore Our Campus", "content": "Take a virtual tour of our state-of-the-art facilities."},
+      {"title": "Our Programs", "content": "Discover a wide range of programs tailored to your interests."},
+      {"title": "Faculty Excellence", "content": "Meet our esteemed faculty members who are leaders in their fields."},
+      {"title": "Student Life", "content": "Experience a vibrant campus life with clubs, events, and more."}
+    ],
+    "placeholderItem": "<br><br><br><br><br>"
+  }
+}

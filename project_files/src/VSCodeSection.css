@@ -1,0 +1,69 @@
+/* VSCodeSection.css */
+.vscode-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.vscode-titlebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  background-color: #333;
+  color: white;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.vscode-title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.vscode-window-controls,
+.vscode-actions {
+  display: flex;
+}
+
+.vscode-window-controls button,
+.vscode-actions button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.vscode-editor {
+  flex-grow: 1;
+  border-top: 1px solid #333;
+  overflow: auto;
+  padding: 10px;
+  background-color: #1e1e1e;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* VSCodeEditor.css */
+.vscode-editor {
+    height: 100%;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .code-input {
+    width: 100%;
+    height: 100%;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border: none;
+    outline: none;
+    padding: 16px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  

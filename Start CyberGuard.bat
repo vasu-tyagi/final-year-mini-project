@@ -1,8 +1,8 @@
 @echo off
-echo Starting files...
+echo Starting Cyberguard...
 
-rem Change directory to CyberGuard
-cd files
+rem Change directory to files
+cd project_files
 
 rem Change directory to src and run backend.py in a new Command Prompt window
 cd src

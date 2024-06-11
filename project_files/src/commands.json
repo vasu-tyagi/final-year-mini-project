@@ -1,0 +1,98 @@
+[
+  {
+    "command": "ls",
+    "output": "Desktop Downloads Documents etc"
+  },
+  {
+    "command": "cd",
+    "output": "Changed directory"
+  },
+  {
+    "command": "cat",
+    "output": "Display file contents"
+  },
+  {
+    "command": "pwd",
+    "output": "/current/working/directory"
+  },
+  {
+    "command": "mkdir",
+    "output": "Directory created successfully"
+  },
+  {
+    "command": "touch",
+    "output": "File created or updated"
+  },
+  {
+    "command": "cp",
+    "output": "Files or directories copied successfully"
+  },
+  {
+    "command": "mv",
+    "output": "Files or directories moved or renamed successfully"
+  },
+  {
+    "command": "rm",
+    "output": "Files or directories removed successfully"
+  },
+  {
+    "command": "echo",
+    "output": "Message printed to the terminal"
+  },
+  {
+    "command": "grep",
+    "output": "Pattern found in file"
+  },
+  {
+    "command": "chmod",
+    "output": "Permissions changed successfully"
+  },
+  {
+    "command": "chown",
+    "output": "Ownership changed successfully"
+  },
+  {
+    "command": "ps",
+    "output": "List of active processes displayed"
+  },
+  {
+    "command": "kill",
+    "output": "Process terminated successfully"
+  },
+  {
+    "command": "df",
+    "output": "Disk space usage displayed"
+  },
+  {
+    "command": "du",
+    "output": "File and directory space usage displayed"
+  },
+  {
+    "command": "man",
+    "output": "ls, cd, cat, pwd, mkdir, touch, cp, mv, rm, echo, grep, chmod, \nchown, ps, kill, df, du, man, history, tar, wget, ssh, top, \nuname"
+  },
+  {
+    "command": "history",
+    "output": "List of previously executed commands displayed"
+  },
+  {
+    "command": "tar",
+    "output": "Tar archives created or extracted successfully"
+  },
+  {
+    "command": "wget",
+    "output": "File downloaded from the internet"
+  },
+  {
+    "command": "ssh",
+    "output": "Connected to remote server using SSH"
+  },
+  {
+    "command": "top",
+    "output": "Sorted information about processes displayed"
+  },
+  {
+    "command": "uname",
+    "output": "System information displayed"
+  }
+]

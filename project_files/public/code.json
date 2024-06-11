@@ -1,0 +1,3 @@
+{
+  "code": "import requests\nfrom bs4 import BeautifulSoup\n\nurl = 'https://example.com'\nresponse = requests.get(url)\n\nif response.status_code == 200:\n    soup = BeautifulSoup(response.text, 'html.parser')\n    article_titles = soup.find_all('h2', class_='article-title')\n\n    for title in article_titles:\n        print(title.text.strip())\nelse:\n    print(f'Failed to retrieve the page. Status code: {response.status_code}')"
+}
